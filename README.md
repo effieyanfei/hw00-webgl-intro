@@ -5,6 +5,13 @@
 </p>
 <p align="center">(source: Ken Perlin)</p>
 
+## Demo
+![](Capture.jpg)
+For the custom fragment shader, I created two layers using 3D perlin noise and combined the layers with a function. I also used uniform time to oscillate between two patterns.
+For the custom vertex shader, I used a rotation matrix to twist the object. The angles are based on uniform time.
+Link: https://effieyanfei.github.io/hw00-webgl-intro/
+
+
 ## Objective
 - Check that the tools and build configuration we will be using for the class works.
 - Start learning Typescript and WebGL2
@@ -75,3 +82,5 @@ To check if everything is on the right track:
   - Interfaces https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API
   - Types https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Types
   - Constants https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Constants
+
+
