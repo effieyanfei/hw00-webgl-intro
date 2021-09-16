@@ -6,7 +6,7 @@
 <p align="center">(source: Ken Perlin)</p>
 
 ## Demo
-![screenshot](Capture.jpg)
+![screenshot](capture.JPG)
 For the custom fragment shader, I created two layers using 3D perlin noise and combined the layers with a function. I also used uniform time to oscillate between two patterns.
 For the custom vertex shader, I used a rotation matrix to twist the object. The angles are based on uniform time.
 Link: https://effieyanfei.github.io/hw00-webgl-intro/
